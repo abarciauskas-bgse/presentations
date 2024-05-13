@@ -4,3 +4,17 @@ project:
   preview:
     port: 4200
     browser: false
+
+website:
+  page-navigation: true
+  title: aimee's presentations
+  repo-url: https://github.com/abarciauskas-bgse/presentations
+  sidebar:
+    pinned: true
+    align: center
+
+    style: "docked"
+    collapse-level: 2
+    contents:
+      - href: noaa-edmw-intro-2024.qmd
+        text: NOAA EDMW ARCO Intro 2024
