@@ -7,18 +7,18 @@
     "text": "Volume of data\nUsers can no longer manage analysis on a single machine.\n\n\nimage source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change"
   },
   {
-    "objectID": "noaa-edmw-intro-2024.html#cloud-native-workflows",
-    "href": "noaa-edmw-intro-2024.html#cloud-native-workflows",
+    "objectID": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis",
+    "href": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
-    "section": "Cloud-native workflows",
-    "text": "Cloud-native workflows\n\n\n\n\n\nComplete workflows performed in the cloud: Data Discovery -&gt; Processing -&gt; Analytics + Visualization\nvia direct data access to cloud-optimized data by users OR services\nwhich promotes\n\nScalability\nReproducibility (provenance)\nOnline Publishing (executable papers)"
+    "section": "Cloud-native workflows enable reproducible, scalable analysis",
+    "text": "Cloud-native workflows enable reproducible, scalable analysis\n\n\n\n\n\nComplete workflows can be performed in the cloud, from data discovery, to processing, to analytics + visualization\nThis is possible via direct data access to cloud-optimized data by users or services.\nCloud-native workflows promote:\n\nScalability\nReproducibility (provenance)\nOnline Publishing (executable papers)"
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
     "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "What Makes Cloud-Optimized Challenging?",
-    "text": "What Makes Cloud-Optimized Challenging?\n\nThere is no one size fits all approach.\nEarth observation data may be processed into raster, vector and point cloud data types and stored in a long list of data formats and structures.\nOptimization also depends on the user.\n\nUsers have to learn new tools.\nUsers access needs differ\n\nBUT, there are concepts that all cloud-optimized access has in common."
+    "text": "What Makes Cloud-Optimized Challenging?\n\nThere is no one size fits all approach.\nBased on data type – raster, vector and point cloud – Earth observation data may be processed into different formats and stored in a variety of data structures.\nOptimization also depends on the user.\n\nUsers have to learn new tools.\nUsers access needs differ.\n\nBUT, there are concepts that all cloud-optimized access has in common."
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging-1",
@@ -39,7 +39,7 @@
     "href": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "Why minimize the number of requests?",
-    "text": "Why minimize the number of requests?\n\nBecause, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.\nIf you can load all metadata in a few reads, those can be used to optimize requests for a cloud-native dataset.\nA cloud-native dataset is one with small addressable chunks via files, internal tiles, or both."
+    "text": "Why minimize the number of requests?\n\nBecause, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.\nIf you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.\nA cloud-native dataset is one with small addressable chunks via files, internal tiles, or both."
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#how-does-it-work",
@@ -123,7 +123,7 @@
     "href": "noaa-edmw-intro-2024.html#learn-more",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "Learn More",
-    "text": "Learn More\nLearn more in the Cloud-Optimized Geospatial Formats Guide"
+    "text": "Learn More\nhttps://guide.cloudnativegeo.org/"
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#todays-presentations",
