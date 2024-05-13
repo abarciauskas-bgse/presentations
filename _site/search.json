@@ -152,5 +152,12 @@
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "Cloud-native workflows",
     "text": "Cloud-native workflows\n\n\n\n\n\nComplete workflows performed in the cloud: Data Discovery -&gt; Processing -&gt; Analytics + Visualization\nvia direct data access to cloud-optimized data by users OR services\nwhich promotes\n\nScalability\nReproducibility (provenance)\nOnline Publishing (executable papers)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "NOAA EDMW Introduction to ARCO May 2024"
   }
 ]
