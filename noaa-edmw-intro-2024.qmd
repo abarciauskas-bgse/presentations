@@ -234,7 +234,7 @@ image source: https://www.wherobots.ai/post/spatial-data-parquet-and-apache-sedo
 
 ## Learn More
 
-[Learn more in the Cloud-Optimized Geospatial Formats Guide](https://guide.cloudnativegeo.org/)
+[https://guide.cloudnativegeo.org/](https://guide.cloudnativegeo.org/)
 
 ## Today's presentations: 
 
