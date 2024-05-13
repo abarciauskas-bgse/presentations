@@ -18,7 +18,7 @@ Users can no longer manage analysis on a single machine.
 image source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change
 :::
 
-## Cloud-native workflows
+## Cloud-native workflows enable reproducible, scalable analysis
 
 :::: {.columns}
 
@@ -27,9 +27,9 @@ image source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change
 :::
 
 ::: {.column width="60%"}
-* Complete workflows performed in the cloud: Data Discovery -> Processing -> Analytics + Visualization
-* via **direct data access to cloud-optimized data** by users OR services
-* which promotes
+* Complete workflows can be performed in the cloud, from data discovery, to processing, to analytics + visualization
+* This is possible via **direct data access to cloud-optimized data** by users or services.
+* Cloud-native workflows promote:
     - Scalability
     - Reproducibility (provenance)
     - Online Publishing (executable papers)
@@ -40,10 +40,10 @@ image source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change
 ## What Makes Cloud-Optimized Challenging?
 
 * There is no one size fits all approach.
-* Earth observation data may be processed into raster, vector and point cloud data types and stored in a long list of data formats and structures.
+* Based on data type -- raster, vector and point cloud -- Earth observation data may be processed into different formats and stored in a variety of data structures.
 * Optimization also depends on the user.
     * Users have to learn new tools.
-    * Users access needs differ
+    * Users access needs differ.
 * BUT, there are concepts that all cloud-optimized access has in common.
 :::
 
@@ -63,7 +63,7 @@ image source: <a href="https://ui.josiahparry.com/spatial-analysis.html#types-of
 ## Why minimize the number of requests?
 
 * Because, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.
-* If you can load all metadata in a few reads, those can be used to optimize requests for a cloud-native dataset.
+* If you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.
 * A cloud-native dataset is one with small addressable chunks via files, internal tiles, or both.
 
 ## How does it work?

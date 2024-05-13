@@ -7,7 +7,7 @@ project:
 
 website:
   page-navigation: true
-  title: aimee's presentations
+  title: Optimized Data Delivery
   repo-url: https://github.com/abarciauskas-bgse/presentations
   sidebar:
     pinned: true
