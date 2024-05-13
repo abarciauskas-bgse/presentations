@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "noaa-edmw-intro-2024.html#volume-of-data",
+    "href": "noaa-edmw-intro-2024.html#volume-of-data",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Volume of data",
+    "text": "Volume of data\nUsers can no longer manage analysis on a single machine.\n\n\nimage source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
+    "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What Makes Cloud-Optimized Challenging?",
+    "text": "What Makes Cloud-Optimized Challenging?\n\nThere is no one size fits all approach.\nEarth observation data may be processed into raster, vector and point cloud data types and stored in a long list of data formats and structures.\nOptimization also depends on the user.\n\nUsers have to learn new tools.\nUsers access needs differ\n\nBUT, there are concepts that all cloud-optimized access has in common."
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging-1",
+    "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging-1",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What Makes Cloud-optimized Challenging?",
+    "text": "What Makes Cloud-optimized Challenging?\n\n\nimage source: ui.josiahparry.com/spatial-analysis.html"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-does-cloud-optimized-mean",
+    "href": "noaa-edmw-intro-2024.html#what-does-cloud-optimized-mean",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What Does Cloud-Optimized Mean?",
+    "text": "What Does Cloud-Optimized Mean?\n\nMake as few requests as possible.\nMake even less for metadata (preferably only 1)"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
+    "href": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Why minimize the number of requests?",
+    "text": "Why minimize the number of requests?\n\nBecause, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.\nIf you can load all metadata in a few reads, those can be used to optimize requests for a cloud-native dataset.\nA cloud-native dataset is one with small addressable chunks via files, internal tiles, or both."
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#how-does-it-work",
+    "href": "noaa-edmw-intro-2024.html#how-does-it-work",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "How does it work?",
+    "text": "How does it work?\n\n\n\nData in cloud storage must be accessible over HTTP using range requests. Object storage supports this.\nHTTP range requests support lazy access and intelligent subsetting.\nIntegrates with high-level analysis libraries and distributed frameworks.\n\n\n\n\n\n\n\nimage credit: Ryan Abernathey"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#formats-by-data-type",
+    "href": "noaa-edmw-intro-2024.html#formats-by-data-type",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Formats by Data Type",
+    "text": "Formats by Data Type\n\n\n\n\n\n\n\n\nFormat\nData Type\nStandard Status\n\n\n\n\nCloud-Optimized GeoTIFF (COG)\nRaster\nOGC standard for comment\n\n\nZarr, Kerchunk\nMulti-dimensional raster\nESDIS and OGC standards in development\n\n\nCloud-Optimized Point Cloud (COPC), Entwine Point Tiles (EPT)\nPoint Clouds*\nno known ESDIS or OGC standard\n\n\nFlatGeobuf, GeoParquet,\nVector\nno known ESDIS, draft OGC standard"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#formats-by-data-type-1",
+    "href": "noaa-edmw-intro-2024.html#formats-by-data-type-1",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Formats by Data Type",
+    "text": "Formats by Data Type"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#formats-by-adoption",
+    "href": "noaa-edmw-intro-2024.html#formats-by-adoption",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Formats by Adoption",
+    "text": "Formats by Adoption\n\n\n\n\n\n\n\n\nFormat\nAdoption\nStandard Status\n\n\n\n\nCloud-Optimized GeoTIFF (COG)\nWidely adopted\nOGC standard for comment\n\n\nZarr, Kerchunk\n(Less) widely adopted, especially in specific communities\nESDIS and OGC standards in development\n\n\nEntwine Point Tiles (EPT), Cloud-Optimized Point Cloud (COPC)\nLess common (PDAL Supported)\nno known ESDIS or OGC standard\n\n\nGeoParquet, FlatGeobuf\nLess common (OGR Supported)\nno known ESDIS, draft OGC standard"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-are-cogs",
+    "href": "noaa-edmw-intro-2024.html#what-are-cogs",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What are COGs?",
+    "text": "What are COGs?\n\n\n\nCOGs are raster data representing a snapshot in time of gridded data, for example digital elevation models (DEMs).\nCOGs are a de facto standard, with an Open Geospatial Consortium (OGC) standard under review.\nThe standard specifies conformance to how the GeoTIFF is formatted, with additional requirements of tiling and overviews.\n\n\n\n\n\n\nimage source: https://www.kitware.com/deciphering-cloud-optimized-geotiffs/"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-are-cogs-1",
+    "href": "noaa-edmw-intro-2024.html#what-are-cogs-1",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What are COGs?",
+    "text": "What are COGs?\n\n\n\nCOGs have internal file directories (IFDs) which are used to tell clients where to find different overview levels and data within the file.\nClients can use this metadata to read only the data they need to visualize or calculate.\nThis internal organization is friendly for consumption by clients issuing HTTP GET range request (“bytes: start_offset-end_offset” HTTP header)\n\n\n\n\n\n\nimage source: https://medium.com/devseed/cog-talk-part-1-whats-new-941facbcd3d1"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-is-zarr",
+    "href": "noaa-edmw-intro-2024.html#what-is-zarr",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What is Zarr?",
+    "text": "What is Zarr?\n\n\n\nZarr is used to represent multidimensional raster data or “data cubes”. For example, weather data and climate models.\nChunked, compressed, N-dimensional arrays.\nThe metadata is stored external to the data files themselves.\nZarr data is often reorganized and compressed from it’s original format into many files which can be accessed according to which chunks the user is interested in.\n\n\n\n\nimage source: https://xarray.dev/"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#what-is-kerchunk",
+    "href": "noaa-edmw-intro-2024.html#what-is-kerchunk",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "What is Kerchunk?",
+    "text": "What is Kerchunk?\n\nKerchunk is a way to create Zarr metadata for archival formats, so that you can leverage the benefits of partial and parallel reads for archives in NetCDF4, HDF5, GRIB2, TIFF and FITS.\n\n\n\n\nimage source: https://fsspec.github.io/kerchunk/detail.html"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#copc-cloud-optimized-point-clouds",
+    "href": "noaa-edmw-intro-2024.html#copc-cloud-optimized-point-clouds",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "COPC (Cloud-Optimized Point Clouds)",
+    "text": "COPC (Cloud-Optimized Point Clouds)\n\n\nimage source: https://copc.io/\n\n\nPoint clouds are a set of data points in space, such as gathered from LiDAR measurements.\nCOPC is a valid LAZ file.\nSimilar to COGs but for point clouds: COPC is just one file, but data is reorganized into a clustered octree instead of regularly gridded overviews."
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#flatgeobuf",
+    "href": "noaa-edmw-intro-2024.html#flatgeobuf",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "FlatGeoBuf",
+    "text": "FlatGeoBuf\n\n\nVector data stored as rows representing points, lines, or polygons with an attribute table.\nFlatGeobuf is a binary encoding format for geographic data using flatbuffers and stored as a single file.\nA row-based streamable-spatial index optimizes for remote reading.\nLearn more: https://github.com/flatgeobuf/flatgeobuf, Kicking the Tires: Flatgeobuf\n\n\nimage source: https://worace.works/2022/02/23/kicking-the-tires-flatgeobuf/"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#geoparquet",
+    "href": "noaa-edmw-intro-2024.html#geoparquet",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Geoparquet",
+    "text": "Geoparquet\n\n\n\n\n\nVector data is traditionally stored as rows representing points, lines, or polygons with an attribute table\nGeoParquet defines how to store vector data in Apache Parquet, which is a columnar storage format (like many cloud data warehouses). “Give me all points with height greater than 10m”.\nLearn more: https://github.com/opengeospatial/geoparquet\n\n\n\n\n\nimage source: https://www.wherobots.ai/post/spatial-data-parquet-and-apache-sedona"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#learn-more",
+    "href": "noaa-edmw-intro-2024.html#learn-more",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Learn More",
+    "text": "Learn More\nLearn more in the Cloud-Optimized Geospatial Formats Guide"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#todays-presentations",
+    "href": "noaa-edmw-intro-2024.html#todays-presentations",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Today’s presentations:",
+    "text": "Today’s presentations:\nWhy Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science (PART I):\n\nBeyond the Format - Specs and Access Methods\n\nBrianna Pagán - GeoZarr Specification\nLucas Sterzinger - Accelerating Data Access with Kerchunk\n\nCloud-native data pipelines for generating ARCO\n\nSean Harkins - Harmonized Landsat Sentinel(HLS): Migrating an on-premise data pipeline to the cloud\nRaphael Hagen - Pangeo Forge - Cloud Pipelines for generating Zarr stores"
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#why-cloud-native-and-analysis-ready-cloud-optimized-arco-data-for-scalable-cloud-computing-and-data-analytics-to-support-open-science-part-ii",
+    "href": "noaa-edmw-intro-2024.html#why-cloud-native-and-analysis-ready-cloud-optimized-arco-data-for-scalable-cloud-computing-and-data-analytics-to-support-open-science-part-ii",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science (PART II):",
+    "text": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science (PART II):\n\nCloud-based data services\n\nSteve Olson - The modernization of the NDFD XML Service using EDR API\nJonathan Joyce - Architecting a Cloud-native, Service-Based Ecosystem for Scientific Data\n\nCloud Data Processing\n\nJulia Signell - Dask - What it is, How to use it\n\nHow to support adopting these technologies\n\nJulia Stewart Lowndes and Ian Carroll - How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": ".",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "home.html#quarto",
+    "href": "home.html#quarto",
+    "title": ".",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "noaa-edmw-intro-2024.html#cloud-native-workflows",
+    "href": "noaa-edmw-intro-2024.html#cloud-native-workflows",
+    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
+    "section": "Cloud-native workflows",
+    "text": "Cloud-native workflows\n\n\n\n\n\nComplete workflows performed in the cloud: Data Discovery -&gt; Processing -&gt; Analytics + Visualization\nvia direct data access to cloud-optimized data by users OR services\nwhich promotes\n\nScalability\nReproducibility (provenance)\nOnline Publishing (executable papers)"
+  }
+]
