@@ -18,7 +18,7 @@
     "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "What Makes Cloud-Optimized Challenging?",
-    "text": "What Makes Cloud-Optimized Challenging?\n\n\n\nThere is no one size fits all approach.\nBased on data type – raster, vector or point cloud – Earth observation data may be processed into different formats and stored in a variety of data structures.\nOptimization also depends on the user: users have to learn new tools and access needs differ.\nBUT, there are concepts that all cloud-optimized access has in common.\n\n\n\n\nimage source: ui.josiahparry.com/spatial-analysis.html"
+    "text": "What Makes Cloud-Optimized Challenging?\n\n\n\nJust putting files in the cloud is not enough.\nThere is no one size fits all approach.\nBased on data type – raster, vector or point cloud – Earth observation data may be processed into different formats and stored in a variety of data structures.\nOptimization also depends on the user: users have to learn new tools and access needs differ.\nBUT, there are concepts that all cloud-optimized access has in common.\n\n\n\n\nimage source: ui.josiahparry.com/spatial-analysis.html"
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
