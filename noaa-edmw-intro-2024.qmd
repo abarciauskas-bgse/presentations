@@ -18,7 +18,7 @@ Users can no longer manage analysis on a single machine.
 image source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change
 :::
 
-## Cloud-native workflows enable reproducible, scalable analysis
+## Cloud-native workflows enable reproducible, scalable analysis.
 
 :::: {.columns}
 
@@ -27,35 +27,39 @@ image source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change
 :::
 
 ::: {.column width="60%"}
-* Complete workflows can be performed in the cloud, from data discovery, to processing, to analytics + visualization
+* End-to-end science workflows can be performed in the cloud: from data discovery, to processing, to analytics and visualization.
 * This is possible via **direct data access to cloud-optimized data** by users or services.
 * Cloud-native workflows promote:
-    - Scalability
-    - Reproducibility (provenance)
-    - Online Publishing (executable papers)
+    - scalability,
+    - reproducibility, and
+    - and online publishing (executable papers).
 :::
 :::
 
-::: {.incremental}
+
 ## What Makes Cloud-Optimized Challenging?
 
+:::: {.columns}
+
+::: {.column width="40%"}
 * There is no one size fits all approach.
-* Based on data type -- raster, vector and point cloud -- Earth observation data may be processed into different formats and stored in a variety of data structures.
-* Optimization also depends on the user.
-    * Users have to learn new tools.
-    * Users access needs differ.
+* Based on data type -- raster, vector or point cloud -- Earth observation data may be processed into different formats and stored in a variety of data structures.
+* Optimization also depends on the user: users have to learn new tools and access needs differ.
 * BUT, there are concepts that all cloud-optimized access has in common.
 :::
 
-## What Makes Cloud-optimized Challenging?
-
+::: {.column width="60%"}
 ![](./images/2019-points-lines-polygons.png)
 
 ::: {style="font-size: 60%;"}
 image source: <a href="https://ui.josiahparry.com/spatial-analysis.html#types-of-spatial-data">ui.josiahparry.com/spatial-analysis.html</a>
 :::
 
-## What Does Cloud-Optimized Mean?
+:::
+
+::::
+
+# What Does Cloud-Optimized Mean?
 
 * Make as few requests as possible.
 * Make even less for metadata (preferably only 1)

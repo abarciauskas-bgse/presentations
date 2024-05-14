@@ -7,32 +7,18 @@
     "text": "Volume of data\nUsers can no longer manage analysis on a single machine.\n\n\nimage source: https://www.ncei.noaa.gov/news/ncei-archive-growth-and-change"
   },
   {
-    "objectID": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis",
-    "href": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis",
+    "objectID": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis.",
+    "href": "noaa-edmw-intro-2024.html#cloud-native-workflows-enable-reproducible-scalable-analysis.",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
-    "section": "Cloud-native workflows enable reproducible, scalable analysis",
-    "text": "Cloud-native workflows enable reproducible, scalable analysis\n\n\n\n\n\nComplete workflows can be performed in the cloud, from data discovery, to processing, to analytics + visualization\nThis is possible via direct data access to cloud-optimized data by users or services.\nCloud-native workflows promote:\n\nScalability\nReproducibility (provenance)\nOnline Publishing (executable papers)"
+    "section": "Cloud-native workflows enable reproducible, scalable analysis.",
+    "text": "Cloud-native workflows enable reproducible, scalable analysis.\n\n\n\n\n\nEnd-to-end science workflows can be performed in the cloud: from data discovery, to processing, to analytics and visualization.\nThis is possible via direct data access to cloud-optimized data by users or services.\nCloud-native workflows promote:\n\nscalability,\nreproducibility, and\nand online publishing (executable papers)."
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
     "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "What Makes Cloud-Optimized Challenging?",
-    "text": "What Makes Cloud-Optimized Challenging?\n\nThere is no one size fits all approach.\nBased on data type – raster, vector and point cloud – Earth observation data may be processed into different formats and stored in a variety of data structures.\nOptimization also depends on the user.\n\nUsers have to learn new tools.\nUsers access needs differ.\n\nBUT, there are concepts that all cloud-optimized access has in common."
-  },
-  {
-    "objectID": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging-1",
-    "href": "noaa-edmw-intro-2024.html#what-makes-cloud-optimized-challenging-1",
-    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
-    "section": "What Makes Cloud-optimized Challenging?",
-    "text": "What Makes Cloud-optimized Challenging?\n\n\nimage source: ui.josiahparry.com/spatial-analysis.html"
-  },
-  {
-    "objectID": "noaa-edmw-intro-2024.html#what-does-cloud-optimized-mean",
-    "href": "noaa-edmw-intro-2024.html#what-does-cloud-optimized-mean",
-    "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
-    "section": "What Does Cloud-Optimized Mean?",
-    "text": "What Does Cloud-Optimized Mean?\n\nMake as few requests as possible.\nMake even less for metadata (preferably only 1)"
+    "text": "What Makes Cloud-Optimized Challenging?\n\n\n\nThere is no one size fits all approach.\nBased on data type – raster, vector or point cloud – Earth observation data may be processed into different formats and stored in a variety of data structures.\nOptimization also depends on the user: users have to learn new tools and access needs differ.\nBUT, there are concepts that all cloud-optimized access has in common.\n\n\n\n\nimage source: ui.josiahparry.com/spatial-analysis.html"
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
