@@ -66,22 +66,37 @@ image source: <a href="https://ui.josiahparry.com/spatial-analysis.html#types-of
 
 ## Why minimize the number of requests?
 
+:::: {.columns}
+
+::: {.column width="60%"}
 * Because, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.
 * If you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.
 * A cloud-native dataset is one with small addressable chunks via files, internal tiles, or both.
+:::
+
+::: {.column width="30%"}
+![](./images/zarr-chunks.png)
+
+::: {style="font-size: 30%;"}
+image credit: https://wiki.earthdata.nasa.gov/display/ESO/Zarr+Format
+:::
+
+:::
+
+::::
 
 ## How does it work?
 
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="60%"}
 * Data in cloud storage must be accessible over HTTP using range requests. Object storage supports this.
 * HTTP range requests support lazy access and intelligent subsetting.
 * Integrates with high-level analysis libraries and distributed frameworks.
 :::
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 <img alt="higher level libraries" src="./images/higher-level-libraries.png"/>
 :::
 

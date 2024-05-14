@@ -393,22 +393,31 @@ Credits: Aimee Barciauskas, Alex Mandel, Brianna Pagán, Vincent Sarago, Chris H
 </section>
 <section id="why-minimize-the-number-of-requests" class="slide level2">
 <h2>Why minimize the number of requests?</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
 <li class="fragment">Because, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.</li>
 <li class="fragment">If you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.</li>
 <li class="fragment">A cloud-native dataset is one with small addressable chunks via files, internal tiles, or both.</li>
 </ul>
+</div><div class="column" style="width:30%;">
+<p><img data-src="./images/zarr-chunks.png"></p>
+<div style="font-size: 30%;">
+<p>image credit: https://wiki.earthdata.nasa.gov/display/ESO/Zarr+Format</p>
+</div>
+</div>
+</div>
 </section>
 <section id="how-does-it-work" class="slide level2">
 <h2>How does it work?</h2>
 <div class="columns">
-<div class="column" style="width:40%;">
+<div class="column" style="width:60%;">
 <ul>
 <li class="fragment">Data in cloud storage must be accessible over HTTP using range requests. Object storage supports this.</li>
 <li class="fragment">HTTP range requests support lazy access and intelligent subsetting.</li>
 <li class="fragment">Integrates with high-level analysis libraries and distributed frameworks.</li>
 </ul>
-</div><div class="column" style="width:60%;">
+</div><div class="column" style="width:40%;">
 <p><img alt="higher level libraries" src="./images/higher-level-libraries.png"></p>
 </div>
 </div>

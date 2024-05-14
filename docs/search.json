@@ -25,7 +25,7 @@
     "href": "noaa-edmw-intro-2024.html#why-minimize-the-number-of-requests",
     "title": "Why Cloud Native and Analysis-Ready-Cloud-Optimized (ARCO) Data for Scalable Cloud Computing and Data Analytics to Support Open Science",
     "section": "Why minimize the number of requests?",
-    "text": "Why minimize the number of requests?\n\nBecause, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.\nIf you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.\nA cloud-native dataset is one with small addressable chunks via files, internal tiles, or both."
+    "text": "Why minimize the number of requests?\n\n\n\nBecause, when accessing data over the internet, such as when data is in cloud storage, latency is high when compared with local storage so it is preferable to fetch lots of data in fewer reads.\nIf you can load all metadata in a few reads, those can be used to make requests for a cloud-native dataset.\nA cloud-native dataset is one with small addressable chunks via files, internal tiles, or both.\n\n\n\n\nimage credit: https://wiki.earthdata.nasa.gov/display/ESO/Zarr+Format"
   },
   {
     "objectID": "noaa-edmw-intro-2024.html#how-does-it-work",
